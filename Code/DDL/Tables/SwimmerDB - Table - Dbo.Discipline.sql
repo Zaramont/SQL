@@ -7,10 +7,10 @@ go
 
 create table dbo.Discipline
 (
-    DisciplineID       	int             not null    identity,
-	Style				nvarchar(30)	not null,
-	Distance			nvarchar(4)		not null,
-	ModifiedDate 		datetime        not null,
+    DisciplineID        int             not null    identity,
+    Style               nvarchar(30)    not null,
+    Distance            nvarchar(4)     not null,
+    ModifiedDate        datetime        not null,
 
     constraint PK_Discipline primary key (
         DisciplineID

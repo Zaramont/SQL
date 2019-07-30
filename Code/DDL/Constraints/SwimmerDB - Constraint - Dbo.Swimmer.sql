@@ -8,9 +8,9 @@ go
 alter table dbo.Swimmer add constraint AK_Swimmer_FirstName_LastName_YearOfBirth_Gender unique 
 (
     FirstName,
-	LastName,
-	YearOfBirth,
-	Gender
+    LastName,
+    YearOfBirth,
+    Gender
 )
 go
 

@@ -7,11 +7,11 @@ go
 
 create table dbo.[Pool]
 (
-    PoolID       	int             not null    identity,
-	City			nvarchar(30) 	not null,
-	[Name]			nvarchar(20),
-	PoolSize		nvarchar(20) 	not null,
-	ModifiedDate 	datetime        not null,
+    PoolID          int             not null    identity,
+    City            nvarchar(30)    not null,
+    [Name]          nvarchar(20),
+    PoolSize        nvarchar(20)    not null,
+    ModifiedDate    datetime        not null,
 
     constraint PK_Pool primary key (
         PoolID

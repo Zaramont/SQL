@@ -7,11 +7,11 @@ go
 
 create table dbo.[Group]
 (
-    GroupID       		int				not null    identity,
-	[Name]				nvarchar(50),
-	Gender				nvarchar(1),
-	LimitDescription	nvarchar(50),
-	ModifiedDate 		datetime        not null,
+    GroupID             int             not null    identity,
+    [Name]              nvarchar(50),
+    Gender              nvarchar(1),
+    LimitDescription    nvarchar(50),
+    ModifiedDate        datetime        not null,
 
     constraint PK_Group primary key (
         GroupID
